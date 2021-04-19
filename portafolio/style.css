@@ -1,0 +1,76 @@
+* {
+  /*  outline: 1px dotted red; */
+  margin: 0px;
+  padding: 0px;
+}
+#container {
+  width: 970px;
+  background: rgb(57, 38, 45);
+  background: radial-gradient(
+    circle,
+    rgba(57, 38, 45, 1) 0%,
+    rgba(81, 61, 70, 1) 100%
+  );
+}
+#header {
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+#main {
+  margin: 30px;
+}
+h1 {
+  display: inline-block;
+}
+h2 {
+  margin-left: 400px;
+  display: inline-block;
+}
+.borde {
+  border: 5px solid #c0c0c0;
+}
+.box1 {
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  background-color: #e2d6e1;
+}
+h3 {
+  color: white;
+  padding: 10px;
+  background: rgb(169, 168, 174);
+  background: linear-gradient(
+    0deg,
+    rgba(169, 168, 174, 1) 0%,
+    rgba(137, 136, 149, 1) 50%,
+    rgba(169, 168, 174, 1) 100%
+  );
+}
+p {
+  padding: 10px;
+}
+.box2 {
+  margin: 20px;
+  width: 250px;
+  height: 500px;
+  background-color: #e2d6e1;
+  display: inline-block;
+}
+#icon {
+  margin: 15px;
+}
+#footer {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.boton {
+  border: 1px solid black;
+  padding: 5px;
+  margin-left: 65px;
+  background-color: #407d61;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px; /*bordes redondos*/
+}

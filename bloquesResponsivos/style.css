@@ -1,0 +1,68 @@
+* {
+  outline: 1px dotted red;
+  margin: 0px;
+  padding: 0px;
+}
+#wrapper {
+  margin: 10px;
+  max-width: 950px;
+}
+.header {
+  height: 150px;
+  background-color: green;
+}
+.navigation {
+  margin-top: 10px;
+  height: 300px;
+  background-color: blue;
+}
+.main {
+  margin-top: 10px;
+  background-color: red;
+  display: inline-block;
+  vertical-align: top;
+}
+.subcontents {
+  margin-top: 10px;
+  height: 100px;
+  width: 900px;
+  background-color: yellow;
+  display: inline-block;
+}
+.advertisement {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  background-color: purple;
+}
+@media only screen and (max-width: 480px) {
+  .sm-4 {
+    width: 100%;
+  }
+  .sm-0 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) {
+  .med-0 {
+    display: none;
+  }
+  .med-2 {
+    width: 40%;
+  }
+  .med-4 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .lg-4 {
+    width: 100%;
+  }
+  .lg-3 {
+    width: 74%;
+  }
+  .lg-1 {
+    display: inline-block;
+    width: 24%;
+  }
+}

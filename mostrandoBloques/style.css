@@ -1,0 +1,42 @@
+* {
+  /* outline: 1px dotted red; */
+  margin: 0px;
+  padding: 0px;
+}
+
+.imgh {
+  background-color: white;
+  display: inline;
+  vertical-align: bottom;
+  height: 50px;
+}
+h1 {
+  display: inline;
+}
+#header {
+  padding: 10px;
+  margin-left: 200px;
+}
+#container {
+  width: 860px;
+  background-color: #d4d2ae;
+}
+#main {
+  margin: 20px;
+}
+.imgm1 {
+  padding: 15px;
+  border: black solid;
+  margin: 2px;
+  height: 120px;
+  width: 120px;
+  background-color: cornflowerblue;
+}
+.imgm2 {
+  padding: 15px;
+  border: black solid;
+  margin: 2px;
+  height: 120px;
+  width: 120px;
+  background-color: #f36870;
+}
